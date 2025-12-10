@@ -1,0 +1,5 @@
+PRINT("Afo")
+PRINT("Pamulang")
+PRINT("Employee")
+PRINT("Indonesia")
+PRINT("Learning something useful")
