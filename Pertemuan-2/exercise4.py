@@ -1,0 +1,5 @@
+A = float(input("Nilai a : "))
+B = float(input("Nilai b : "))
+C = float(input("Nilai c : "))
+diskriminan = (B**2) - (4*A*C)
+print("Nilai Diskriminan = ",diskriminan)
