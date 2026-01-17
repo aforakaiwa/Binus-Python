@@ -23,7 +23,7 @@ def fungsiModulus(value1=2, value2=3):
     result = value1 % value2
     return result
 
-operator = "+"
+#operator = "+" tidak perlu ternyata
 while(True):
     operator = str(input("Enter Menu (+|-|/|*|%|stop):"))
     if(operator == "+" or operator == "-" or operator == "/" or operator == "*" or operator == "%"):
