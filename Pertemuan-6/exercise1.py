@@ -15,7 +15,11 @@ class Student:
     def printStudent(self):
         print("Name:", self.name, "\nNISN:", self.nisn, "\nTempat Lahir: ", self.tempatLahir, "\nTanggal Lahir: ", self.tanggalLahir)
 
-student1 = Student(str(input("Input Nama: ")), str(input("Input NISN: ")), str(input("Input Tempat Lahir: ")), str(input("input Tanggal Lahir: ")))
+name = str(input("Input Nama: "))
+nisn = str(input("Input NISN: "))
+tempatLahir = str(input("Input Tempat Lahir: "))
+tanggalLahir = str(input("input Tanggal Lahir: "))
+student1 = Student(name, nisn, tempatLahir, tanggalLahir)
 print("\n")
 
 student1.printStudent()
