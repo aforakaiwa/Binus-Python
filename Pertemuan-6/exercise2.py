@@ -47,15 +47,20 @@ while (True):
     elif(menu == "3"):
         change = str(input("Menu to Change (name/score): " ))
         if (change == "name"):
-            name = student1.setName(str(input("Change Name: ")))
+            name = str(input("Change Name: "))
+            student1.setName(name)
         elif (change == "score"):
-            score = student1.setScore(int(input("Change Score:")))
+            score = int(input("Change Score: "))
+            student1.setScore(score)
         else:
             print("Wrong menu")
         print("")
     
     elif(menu == "4"):
-        student1 = Student("None",0)
+        name = "None"
+        score = 0
+        student1.setName(name)
+        student1.setScore(score)
         print("Data Deleted")
     
     elif(menu == "5"):
